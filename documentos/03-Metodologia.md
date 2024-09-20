@@ -28,6 +28,9 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
 - 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/users/Gustaff17/projects/2 e é apresentado, no estado atual, na figura abaixo:
+![{D871CCD9-FE03-4FF8-8C32-8058E08656DC}](https://github.com/user-attachments/assets/650b084a-9328-4552-afc8-7ed60f1308d0)
+
+
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
