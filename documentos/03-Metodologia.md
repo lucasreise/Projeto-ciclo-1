@@ -53,9 +53,9 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
   
 ### Ferramentas
 
-> - Editor de código.
-> - Ferramentas de comunicação.
-> - Ferramentas de desenho de tela (wireframing).
+Editor de código.
+Ferramentas de comunicação.
+Ferramentas de desenho de tela (wireframing).
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
