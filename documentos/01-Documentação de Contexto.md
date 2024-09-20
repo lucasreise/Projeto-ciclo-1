@@ -2,7 +2,7 @@
 
 Nos últimos anos, o cenário dos E-sports tem ganhado grande destaque, tornando-se um dos segmentos mais lucrativos da indústria de entretenimento. Com milhões de espectadores e eventos internacionais de grande porte, o mundo dos E-sports tem atraído uma audiência bastante engajada, gerando assim uma grande demanda de produtos e serviços. 
  
-Diantee desse contexto, a compra e venda de skins, elementos virtuais que modificam a aparência dos personagens e equipamentos nos jogos, vem se tornando cada vez mais comum e lucrativa.
+Diante desse contexto, a compra e venda de skins, elementos virtuais que modificam a aparência dos personagens e equipamentos nos jogos, vem se tornando cada vez mais comum e lucrativa.
 
 Nosso projeto a “Shelf Games” é uma plataforma social que abrange diversos jogadores, com um único interesse, a compra e venda de skins. Dentro da rede social, podendo comprar e vender skins anunciadas e caso acheviável pelo valor oferecido, adquiri-las com total segurança e eficiência.
 
