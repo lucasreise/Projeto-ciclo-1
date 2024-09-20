@@ -7,7 +7,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 1: Vendedores de skins </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -15,7 +15,47 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>1. Vender na plataforma de forma segura suas skins;
+    2. Uma plataforma de fácil uso e visibilidade de suas skins;
+    3. Rapidez no processo de venda e recebimento dos fundos.<td>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil 2: Compradores de skins </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">...</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>1. Comprar em uma plataforma de forma segura e confiável suas skins;
+    2. Uma plataforma de fácil uso e visibilidade de suas skins;
+    3. Agilidade no momento da compra e no prazo de recebimento da skin comprada.</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil 3: Jogadores de e-sports</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">...</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>1. Navegar no site para encontrar skins do seu jogo preferido;
+    2. Identificar possíveis skins para compra;
+    3. Análisar preços de venda e compra de skins;
+    4. Facilidade no processo de navegação e busca das skins do seu jogo preferido. </td>
 </tr>
 </tbody>
 </table>
@@ -23,12 +63,7 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
+Com base na análise dos usuários que irãoa acessar o site, foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
