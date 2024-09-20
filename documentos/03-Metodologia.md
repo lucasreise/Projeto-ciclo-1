@@ -26,6 +26,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - In progress: lista das tarefas iniciadas
 - Doing: quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
+- 
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/users/Gustaff17/projects/2 e é apresentado, no estado atual, na figura abaixo:
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
