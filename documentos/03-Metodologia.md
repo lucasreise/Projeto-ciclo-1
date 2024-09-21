@@ -69,11 +69,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-2-E1-Proj-Projeto-Shelf-Skins|
+| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-2-E1-Proj-Projeto-Shelf-Skins/tree/main/documentos|
+| Projeto de Interface                | Figma                         |https://miro.com/welcomeonboard/Q0NkT25abVRvamx5dndlSW1hdUlYYWJTZW5RMWg5UFhYZlRhTlJYbzU1ZWR6QUtUb0pvVnJiamVKcTdac0ZCTXwzNDU4NzY0NjAwNTc2NjA4MzYxfDI=?share_link_id=989027200428|
+| Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/users/Gustaff17/projects/2?pane=issue&itemId=80450087|
 
 
 ### Estratégia de Organização de Codificação 
