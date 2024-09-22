@@ -12,7 +12,6 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master: Kevin Eduardo F.V da Silveira.
 - Product Owner: Gustavo da Silva Rangel.
 - Equipe de Desenvolvimento: Arthur Veloso Moura, Gustavo da Silva Rangel, João Victor Santos de Almeida, Kevin Eduardo F.V da Silveira e Lucas Reis Esteves.
