@@ -12,7 +12,6 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master: Kevin Eduardo F.V da Silveira.
 - Product Owner: Gustavo da Silva Rangel.
 - Equipe de Desenvolvimento: Arthur Veloso Moura, Gustavo da Silva Rangel, João Victor Santos de Almeida, Kevin Eduardo F.V da Silveira e Lucas Reis Esteves.
@@ -20,23 +19,17 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-> - Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes listas:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes listas:
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
 - In progress: lista das tarefas iniciadas
 - Doing: quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
-- 
+ 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/users/Gustaff17/projects/2 e é apresentado, no estado atual, na figura abaixo:
 ![{D871CCD9-FE03-4FF8-8C32-8058E08656DC}](https://github.com/user-attachments/assets/650b084a-9328-4552-afc8-7ed60f1308d0)
 
-
-
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Figura 1 - Tela do kanban no GitHub ultilizada pelo grupo
 
 
 ### Etiquetas
