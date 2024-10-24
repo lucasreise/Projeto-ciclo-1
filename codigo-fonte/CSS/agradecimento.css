@@ -45,7 +45,6 @@
     font-size: 1.4em;
 }
 
-
 #return-button {
     margin-top: 20px; 
     padding: 10px 20px; 
@@ -58,7 +57,7 @@
 }
 
 #return-button:hover {
-    background-color: var(--cor-terciaria);
+    background-color: #6868ff;
 }
 
 .line-animation {
@@ -77,6 +76,10 @@
     width: 50%;
     background-color: var(--cor-terciaria);
     animation: slide 2s linear infinite;
+}
+
+#return-button{
+    font-weight: bold;
 }
 
 @keyframes slide {
