@@ -17,6 +17,7 @@ O objetivo deste projeto é o desenvolvimento de uma solução segura, que permi
 ## Justificativa
 
 Diversas fraudes ocorrem diariamente em todos os jogos onlines que permitem trocas de skins, e a empresa que fornece esse serviço não é segura, e segundo relatos, usuarios já sofreram com fraudes. Diante disso, se torna imprescindível a existência de um site seguro e eficaz para que todas as transações sejam feitas com total segurança. Com o comprador podendo ver as classificações/avaliações reais do vendedor e visse e versa, o usuário sentirá mais segurança ao realizar suas compras/vendas.
+Atualmente existem várias plataformas que atendem a demanda de comércio de skins, porém a falta de segurança e transparência, acaba prejudicando este cenário. Com isso, o desenvolvimento de uma plataforma segura se torna cada vez mais urgênte e necessária.
 
 ## Público-Alvo
 
