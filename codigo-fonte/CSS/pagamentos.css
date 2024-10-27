@@ -13,56 +13,54 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-#div-container {
-    width: 100vw;
+#div-payment-container {
+    background-color: #f0f0f0;
     height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#div-payment{
+    background-color: var(--cor-principal);
+    width: 50%;
+    height: 70%;
+    padding: 20px 0 100px 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px var(--cor-quaternaria);
+}
+
+#div-payment h1 {
+    color: var(--cor-secundaria);
+    margin-top: 30px;
+}
+
+#div-container-payment{
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#img-thanks {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
-#container-thanks {
-    display: block;
-    text-align: center;
-    margin-top: 5em;
-}
-
-#container-thanks h1 {
-    font-size: 4em;
-    padding-bottom: 0.1em;
-    color: var(--cor-secundaria);
-    position: relative;
-}
-
-#container-thanks h3 {
-    color: var(--cor-secundaria);
-    font-size: 1.4em;
-}
-
-.line-animation {
-    width: 100%;
-    height: 4px;
+.button-payment-choice {
     background-color: var(--cor-secundaria);
-    position: relative;
-    margin: 10px 0 20px 0;
-    overflow: hidden;
+    color: var(--cor-principal);
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 100px;
+    width: 70%;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 1px var(--cor-quaternaria);
 }
 
-.line-animation::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    background-color: #3317c0;
-    animation: slide 2s linear infinite;
+.button-payment-choice:hover{
+    cursor:pointer;
+    background-color: var(--cor-hover);
 }
 
 #return-button {
@@ -83,13 +81,4 @@
 #return-button{
     font-weight: bold;
     box-shadow: 5px 5px 1px var(--cor-quaternaria);
-}
-
-@keyframes slide {
-    0% {
-        left: -50%;
-    }
-    100% {
-        left: 100%;
-    }
 }
