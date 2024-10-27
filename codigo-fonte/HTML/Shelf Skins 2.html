@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/codigo-fonte/images/icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shelf Skins</title>
   <style>
@@ -16,12 +17,11 @@
       height: 100vh;
     }
 
-    /* Barra de navegação */
     .navbar {
       width: 100%;
       background-color: #7254a8fb;
       display: flex;
-      justify-content: flex-start; /* Alinha à esquerda */
+      justify-content: flex-start;
       padding: 10px 0;
       align-items: center;
     }
@@ -40,11 +40,10 @@
       color: black;
     }
 
-    /* Estilo para o logotipo ao lado de "Início" */
     .navbar img {
-      width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+      width: 6.4em;
       height: auto;
-      margin-right: 20px; /* Reduz o espaço entre o logotipo e os links */
+      margin-right: 20px;
     }
 
     .container {
@@ -73,7 +72,6 @@
       border: 1px solid #ddd;
     }
 
-    /* Ícone de perfil com SVG */
     .profile-icon {
       width: 40px;
       height: 40px;
@@ -83,46 +81,51 @@
       align-items: center;
     }
 
-    /* Estilos para o ícone de perfil */
     .profile-icon svg {
       width: 100%;
       height: 100%;
     }
 
-    /* Estilo para o ícone de carrinho de compras */
     .shopping-cart {
       display: flex;
       align-items: center;
-      margin-left: auto; /* Move o ícone do carrinho para a direita */
-      padding-right: 20px; /* Adiciona espaçamento à direita */
+      margin-left: auto;
+      padding-right: 20px
     }
 
     .shopping-cart svg {
       width: 24px;
       height: 24px;
-      stroke: white; /* Contorno branco */
-      fill: none; /* Sem preenchimento */
+      stroke: white;
+      fill: none;
     }
 
-    /* Estilos para anúncios */
     .ads-container {
       display: flex;
-      flex-direction: row; /* Altere de column para row */
+      flex-direction: row;
       margin-top: 20px;
-      justify-content: start; /* Alinhar os itens à esquerda */
+      justify-content: start;
     }
 
     .ad {
       display: flex;
       align-items: center;
-      margin-right: 5px; /* Reduzir espaçamento entre as imagens */
+      justify-content: center;
+      margin: 5px;
     }
 
     .ad img {
-      width: 100px; /* Ajuste o tamanho das imagens */
-      height: 100px;
+
+      width: 130px;
+      height: 200px;
       object-fit: cover;
       border-radius: 8px;
+    }
+
+    .ad img:hover{
+      transform: scale(1.1);
+      transition: transform 0.5s ease;
+      cursor: pointer;
     }
     
     .ad-text {
@@ -131,37 +134,26 @@
       font-size: 12px;
     }
 
-    .Categorias populares {
-      font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-      font-weight: bold; /* Negrito aplicado */
-      font-size: 16px;
+    .categorias {
+      font-weight: bold;
+      font-size: 20px;
       margin: 20px 0 10px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Barra de Navegação -->
   <div class="navbar">
-    <img src="Shelf Skins.png" alt="Shelf Skins Logo">
-    <a href="#inicio">Início</a>
-    <a href="#comprar">Comprar</a> <!-- Adiciona o botão "Comprar" -->
-    <a href="#vender">Vender</a> <!-- Alteração de "Anunciar" para "Vender" -->
-    
-    <!-- Carrinho de compras com contorno branco -->
-    <div class="shopping-cart">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5H2M7 13l-1.34 5.34a1 1 0 001 1.66h10.68a1 1 0 001-1.66L17 13M9 21h.01M15 21h.01"/>
-      </svg>
-    </div>
+    <img src="../images/Logo-bg.png" alt="Shelf Skins Logo">
+    <a href="#inicio" onclick="window.location.href='Shelf Skins 2.html'">Início</a>
+    <a href="#comprar">Comprar</a>
+    <a href="#vender">Vender</a>
   </div>
 
   <div class="container">
-    <!-- Barra de Pesquisa e Perfil -->
     <div class="search-bar">
       <input type="text" placeholder="Barra de pesquisa">
       <div class="profile-icon">
-        <!-- SVG do ícone de perfil -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
           <circle cx="12" cy="7" r="4"></circle>
@@ -169,23 +161,17 @@
       </div>
     </div>
 
-    <!-- Categorias Populares -->
     <div class="categorias populares">Categorias Populares</div>
 
-    <!-- Anúncio com Imagem e Texto -->
     <div class="ads-container">
       <div class="ad">
-        <img src="csgo.png" alt="CSGO Image">
-      </div>
-      <!-- Adicione mais anúncios aqui seguindo o mesmo padrão -->
-      <div class="ad">
-        <img src="pubg.png" alt="PUBG Image">
+        <img onclick="window.location.href='Compra de skins de CS.html'" src="../images/csgo.png" alt="CSGO Image">
       </div>
       <div class="ad">
-        <img src="fortnite.png" alt="FORTNITE Image">
+        <img onclick="window.location.href='Compra Skins PUBG.html'" src="../images/pubg.png" alt="PUBG Image">
       </div>
       <div class="ad">
-        <img src="Dota 2.png" alt="DOTA 2 Image">
+        <img onclick="window.location.href='Compra de Skins de Dota 2-1.html'" src="../images/Dota 2.png" alt="DOTA 2 Image">
       </div>
     </div>
   </div>

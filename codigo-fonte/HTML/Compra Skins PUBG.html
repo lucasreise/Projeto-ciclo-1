@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skin Dota 2</title>
+  <link rel="icon" type="image/x-icon" href="/codigo-fonte/images/icon.png">
+  <title>Skin Counter-Strike</title>
   <style>
+    :root {
+      --cor-principal: #fff;
+      --cor-secundaria: #7b7bf8;
+      --cor-terciaria: #000000;
+      --cor-quaternaria: #6868ff6d;
+      --cor-hover: #6868ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
+      background-color: #f0f0f0;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -40,7 +57,7 @@
       background-color: #fff;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px var(--cor-secundaria);
       margin-top: 20px;
     }
 
@@ -56,7 +73,7 @@
     }
 
     .buy-button {
-      background-color: #b270df;
+      background-color: var(--cor-secundaria);
       color: white;
       padding: 10px 20px;
       border: none;
@@ -65,11 +82,11 @@
     }
 
     .buy-button:hover {
-      background-color: #b57be4;
+      background-color: var(--cor-hover);
     }
 
     .back-button {
-      background-color: #9461d6;
+      background-color: var(--cor-secundaria);
       color: white;
       padding: 10px 20px;
       border: none;
@@ -81,25 +98,39 @@
     }
 
     .back-button:hover {
-      background-color: #0056b3;
+      background-color: var(--cor-hover);
     }
   </style>
 </head>
+
 <body>
 
-  <!-- Botão Voltar -->
-  <a href="Shelf Skins 2.html" class="back-button">Voltar</a>
+  <button onclick="window.location.href='Shelf Skins 2.html'" class="back-button">Voltar</button>
 
   <div class="container">
-    <h2>Dota 2 Skin</h2>
+    <h2>Gold Plate - UMP (R$900,00)</h2>
     <div class="skin-item">
-      <img src="Skin de dota 2 - warlock.jpeg" alt="Dota 2 Skin 2">
+      <img src="../images/UMP.png" alt="CSGO Skin 1">
     </div>
-    <p>warlock</p>
+
+    <p>PUBG</p>
     <div class="button-container">
-      <button class="buy-button">Comprar</button>
+      <button class="buy-button" onclick="window.location.href='Pagamento.html'">Comprar</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Doomsday Hoodie (R$500,00)</h2>
+    <div class="skin-item">
+      <img src="../images/Hoodie.png" alt="CSGO Skin 1">
+    </div>
+
+    <p>PUBG</p>
+    <div class="button-container">
+      <button class="buy-button" onclick="window.location.href='Pagamento.html'">Comprar</button>
     </div>
   </div>
 
 </body>
+
 </html>

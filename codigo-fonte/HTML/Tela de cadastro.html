@@ -4,8 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/codigo-fonte/images/icon.png">
     <title>Tela de Cadastro</title>
     <style>
+        :root {
+            --cor-principal: #fff;
+            --cor-secundaria: #7b7bf8;
+            --cor-terciaria: #000000;
+            --cor-quaternaria: #6868ff6d;
+            --cor-hover: #6868ff;
+        }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -14,6 +23,17 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+        }
+
+        label {
+            color: var(--cor-secundaria);
+            font-weight: bold;
+        }
+
+        input {
+            color: var(--cor-secundaria);
+            border: var(--cor-secundaria);
+            font-weight: bold;
         }
 
         .register-container img {
@@ -26,10 +46,11 @@
             border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
-            ;
         }
 
         h2 {
+            color: var(--cor-secundaria);
+            font-weight: bold;
             text-align: left;
             margin: -50px 0 20px 0;
         }
@@ -43,20 +64,26 @@
             margin: 10px -10px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            border-color: var(--cor-secundaria);
         }
 
         button {
             width: 100%;
             padding: 10px;
-            background-color: #7b7bf8;
+            background-color: var(--cor-secundaria);
             border: none;
             color: white;
             border-radius: 5px;
             cursor: pointer;
+            font-weight: bold;
         }
 
         button:hover {
-            background-color: #6868ff;
+            background-color: var(--cor-hover)
+        }
+
+        ::placeholder {
+            color: var(--cor-secundaria);
         }
     </style>
 </head>
@@ -83,9 +110,11 @@
                     <label for="password">Senha:</label>
                     <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
 
-                    <button type="submit">Avançar</button>
+                    <button type="button" id="register-btn" onclick="validarFormulario()">Cadastrar</button>
                 </form>
     </div>
+
+    <script src="../JavaScript/cadastrar.js"></script>
 </body>
 
 </html>

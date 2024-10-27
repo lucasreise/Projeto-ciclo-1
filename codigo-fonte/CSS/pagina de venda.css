@@ -1,57 +1,65 @@
 .botao-perfil {
-    position: absolute; /* Posiciona o botão */
-    top: 20px; /* Distância do topo */
-    right: 20px; /* Distância da direita */
-    padding: 10px; /* Espaçamento interno */
-    background-color: #007BFF; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    text-decoration: none; /* Remove o sublinhado */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
-}
-.botao-voltar {
-    position: absolute; /* Posiciona o botão */
-    top: 20px; /* Distância do topo */
-    left: 40px; /* Distância da direita */
+    position: absolute;
+    top: 20px;
+    right: 20px;
     padding: 10px;
-    background-color: #007BFF;; 
-    color: white; /* Cor do texto */
-    text-decoration: none; /* Remove o sublinhado */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.botao-voltar {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    padding: 10px;
+    background-color: #007BFF;
+    ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 main {
-    text-align: center; /* Centraliza o conteúdo do main */
-    margin-top: 20px; /* Espaço acima do main */
+    text-align: center;
+    margin-top: 20px;
 }
+
 img {
-    max-width: 250px; /* Define um tamanho máximo para as imagens */
-    height: 150px; /* Mantém a proporção da imagem */
-    margin: 10px; /* Espaço entre as imagens */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 250px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 header {
-    background-color: #f8f9fa; /* Cor de fundo do cabeçalho */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
+
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Remove margens do body */
-    padding: 0; /* Remove preenchimento do body */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .produto {
-    text-align: center; /* Centraliza a imagem e a descrição */
-    margin-bottom: 30px; /* Espaço entre os produtos */
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .produto p {
-    color: hwb(239 6% 35% / 0.952); /* Cor do texto */
-    font-size: 19px; /* Tamanho da fonte */
-    margin-top: 1px; /* Espaço acima da descrição */
-} 
+    color: hwb(239 6% 35% / 0.952);
+    font-size: 19px;
+    margin-top: 1px;
+}
+
 .titulo-anuncios {
-color: hwb(240 0% 99% / 0.952);
-font-size: 22px
+    color: hwb(240 0% 99% / 0.952);
+    font-size: 22px
 }
